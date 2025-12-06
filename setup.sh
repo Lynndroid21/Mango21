@@ -3,19 +3,19 @@
 ## Welcome to HyprEco!!!! Hope you enjoy the dots!~
 ## Installer built for various package managers listed below!
 
-readonly DOTS_REPO="https://github.com/Lynndroid21/Hypreco-dots"
-readonly DOTS_NAME="Hypreco-dots"
+readonly DOTS_REPO="https://github.com/Lynndroid21/Mango21"
+readonly DOTS_NAME="Mango21"
 readonly DOTS_INSTALL_DIR="$HOME/.config"
 readonly PATH_TO_GIT_CLONE="$HOME/$DOTS_NAME"
 
 # bash trap command
-trap HEexit INT
+trap M21exit INT
 
 # bash clear screen command
 clear;
 
 # bash trap function is executed when CTRL-C is pressed:
-HEexit()
+M21exit()
 {
     command clear
     echo "No worries hun! Have a good day!~"
@@ -109,41 +109,46 @@ command clear
 sleep 2
 
 
-echo "                                                                  _____                                                                                                              _____                                                                 ";
-echo "                                                                 ( ___ )                                                                                                            ( ___ )                                                                ";
-echo "                                                                  |   |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|   |                                                                 ";
-echo "                                                                  |   |                                                                                                              |   |                                                                 ";
-echo "                                                                  |   |           █████   █████ █████ █████ ███████████  ███████████   ██████████   █████████     ███████            |   |                                                                 ";
-echo "                                                                  |   |          ░░███   ░░███ ░░███ ░░███ ░░███░░░░░███░░███░░░░░███ ░░███░░░░░█  ███░░░░░███  ███░░░░░███          |   |                                                                 ";
-echo "                                                                  |   |           ░███    ░███  ░░███ ███   ░███    ░███ ░███    ░███  ░███  █ ░  ███     ░░░  ███     ░░███         |   |                                                                 ";
-echo "                                                                  |   |           ░███████████   ░░█████    ░██████████  ░██████████   ░██████   ░███         ░███      ░███         |   |                                                                 ";
-echo "                                                                  |   |           ░███░░░░░███    ░░███     ░███░░░░░░   ░███░░░░░███  ░███░░█   ░███         ░███      ░███         |   |                                                                 ";
-echo "   ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣠⣤⠤⢦⠴⠤⠦⠄⠀⢀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀    |   |           ░███    ░███     ░███     ░███         ░███    ░███  ░███ ░   █░░███     ███░░███     ███          |   |   ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣠⣤⠤⢦⠴⠤⠦⠄⠀⢀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   ";
-echo "   ⠀⠀⣀⣤⡤⢤⣄⣀⠀⠀⠀⠀⠀⠀⠀⣀⣀⣤⠶⠖⣲⡴⠞⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠙⠶⣄⡤⠤⠤⠤⣤⣀⠀⠀⠀⠀⠀⠀⠀⣀⣤⣤⣤⣄⣀⠀⠀    |   |           █████   █████    █████    █████        █████   █████ ██████████ ░░█████████  ░░░███████░           |   |   ⠀⠀⣀⣤⡤⢤⣄⣀⠀⠀⠀⠀⠀⠀⠀⣀⣀⣤⠶⠖⣲⡴⠞⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠙⠶⣄⡤⠤⠤⠤⣤⣀⠀⠀⠀⠀⠀⠀⠀⣀⣤⣤⣤⣄⣀⠀⠀   ";
-echo "   ⠀⣾⠋⠀⠀⠀⠀⠁⠉⠐⠶⠶⠶⠚⠛⠉⠁⠀⠀⠼⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢝⡦⠀⠀⠀⠉⠙⠛⠓⠶⠶⠞⠛⠉⠀⠀⠀⠀⠙⢷⠀    |   |          ░░░░░   ░░░░░    ░░░░░    ░░░░░        ░░░░░   ░░░░░ ░░░░░░░░░░   ░░░░░░░░░     ░░░░░░░             |   |   ⠀⣾⠋⠀⠀⠀⠀⠁⠉⠐⠶⠶⠶⠚⠛⠉⠁⠀⠀⠼⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢝⡦⠀⠀⠀⠉⠙⠛⠓⠶⠶⠞⠛⠉⠀⠀⠀⠀⠙⢷⠀   ";
-echo "   ⠸⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⡁    |   |                                                                                                              |   |   ⠸⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⡁   ";
-echo "   ⠀⢿⡀⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣰⠆⠀⠀⠀⢠⣴⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣤⡀⠀⠀⣲⡐⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣼⠀    |   |                                                                                                              |   |   ⠀⢿⡀⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣰⠆⠀⠀⠀⢠⣴⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣤⡀⠀⠀⣲⡐⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣼⠀   ";
-echo "   ⠀⠀⠙⢶⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⡏⠀⠀⠀⠀⣿⣿⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⡇⠀⠀⠉⢷⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⡞⠁⠀    |   |                               ██████████      ███████    ███████████  █████████                              |   |   ⠀⠀⠙⢶⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⡏⠀⠀⠀⠀⣿⣿⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⡇⠀⠀⠉⢷⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⡞⠁⠀   ";
-echo "   ⠀⠀⠀⠀⠈⠛⠀⠀⠠⠤⣤⣤⢤⠤⠖⢻⡆⠀⠀⠀⠂⠈⠁⠀⠀⠀⠷⣇⣠⣦⣄⣴⠀⠀⠀⠈⠁⠀⠀⠀⠀⢸⡏⠉⠓⠶⠦⣤⢤⠤⠶⠖⠂⠀⠀⠀⠀⠀⠀    |   |                              ░░███░░░░███   ███░░░░░███ ░█░░░███░░░█ ███░░░░░███                             |   |   ⠀⠀⠀⠀⠈⠛⠀⠀⠠⠤⣤⣤⢤⠤⠖⢻⡆⠀⠀⠀⠂⠈⠁⠀⠀⠀⠷⣇⣠⣦⣄⣴⠀⠀⠀⠈⠁⠀⠀⠀⠀⢸⡏⠉⠓⠶⠦⣤⢤⠤⠶⠖⠂⠀⠀⠀⠀⠀⠀   ";
-echo "   ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠻⣤⣀⠀⠀⢀⣠⣀⡀⠀⠀⠈⠁⠀⠈⠁⠀⢀⣠⣀⡀⠀⠀⠀⣠⡟⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀    |   |                               ░███   ░░███ ███     ░░███░   ░███  ░ ░███    ░░░                              |   |   ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠻⣤⣀⠀⠀⢀⣠⣀⡀⠀⠀⠈⠁⠀⠈⠁⠀⢀⣠⣀⡀⠀⠀⠀⣠⡟⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   ";
-echo "   ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠛⢻⡟⠉⠉⠙⣷⢦⣤⣤⣤⣤⣤⣾⠋⠉⠉⢻⡆⠸⠛⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀    |   |                               ░███    ░███░███      ░███    ░███    ░░█████████                              |   |   ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠛⢻⡟⠉⠉⠙⣷⢦⣤⣤⣤⣤⣤⣾⠋⠉⠉⢻⡆⠸⠛⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   ";
-echo "   ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣾⠿⠶⠶⠾⣉⢆⠛⣷⣶⡟⠭⣘⠛⡶⠶⡟⢿⣦⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀    |   |                               ░███    ░███░███      ░███    ░███     ░░░░░░░░███                             |   |   ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣾⠿⠶⠶⠾⣉⢆⠛⣷⣶⡟⠭⣘⠛⡶⠶⡟⢿⣦⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   ";
-echo "   ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣿⢃⡌⢣⡙⢢⠅⡎⢜⡠⢃⡜⢢⡑⠎⡔⢣⠜⣨⠻⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀    |   |                               ░███    ███ ░░███     ███     ░███     ███    ░███                             |   |   ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣿⢃⡌⢣⡙⢢⠅⡎⢜⡠⢃⡜⢢⡑⠎⡔⢣⠜⣨⠻⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   ";
-echo "   ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⣿⢢⠘⡥⢌⠣⢜⡈⠦⡑⢣⡘⡔⡸⢘⠌⠦⡩⢄⢻⡷⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀    |   |                               ██████████   ░░░███████░      █████   ░░█████████                              |   |   ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⣿⢢⠘⡥⢌⠣⢜⡈⠦⡑⢣⡘⡔⡸⢘⠌⠦⡩⢄⢻⡷⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   ";
-echo "   ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢿⣦⠩⡔⢊⡱⢊⠬⡑⢬⢡⠒⡜⡰⣉⢌⡓⡘⢤⣿⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀    |   |                              ░░░░░░░░░░      ░░░░░░░       ░░░░░     ░░░░░░░░░                               |   |   ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢿⣦⠩⡔⢊⡱⢊⠬⡑⢬⢡⠒⡜⡰⣉⢌⡓⡘⢤⣿⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   ";
-echo "   ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠻⣷⡈⠧⡰⢉⠦⣉⠖⣨⠑⠦⡑⡔⡊⡔⣩⣾⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀    |   |                                                                                                              |   |   ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠻⣷⡈⠧⡰⢉⠦⣉⠖⣨⠑⠦⡑⡔⡊⡔⣩⣾⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   ";
-echo "   ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⢿⣶⠁⡏⡰⢆⠾⣀⠹⢆⠱⣆⢱⣸⡿⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀    |   |                                                                                                              |   |   ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⢿⣶⠁⡏⡰⢆⠾⣀⠹⢆⠱⣆⢱⣸⡿⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   ";
-echo "   ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⢷⣬⡑⢎⡒⢌⠲⣉⣲⣬⠟⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀    |   |                                                                                                              |   |   ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⢷⣬⡑⢎⡒⢌⠲⣉⣲⣬⠟⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   ";
-echo "   ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠻⢶⣎⣬⡷⠟⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀    |   |  █████ ██████   █████  █████████  ███████████   █████████   █████       █████       ██████████ ███████████   |   |   ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠻⢶⣎⣬⡷⠟⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   ";
-echo "   ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀    |   | ░░███ ░░██████ ░░███  ███░░░░░███░█░░░███░░░█  ███░░░░░███ ░░███       ░░███       ░░███░░░░░█░░███░░░░░███  |   |   ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   ";
-echo "                                                                  |   |  ░███  ░███░███ ░███ ░███    ░░░ ░   ░███  ░  ░███    ░███  ░███        ░███        ░███  █ ░  ░███    ░███  |   |                                                                 ";
-echo "                                                                  |   |  ░███  ░███░░███░███ ░░█████████     ░███     ░███████████  ░███        ░███        ░██████    ░██████████   |   |                                                                 ";
-echo "                                                                  |   |  ░███  ░███ ░░██████  ░░░░░░░░███    ░███     ░███░░░░░███  ░███        ░███        ░███░░█    ░███░░░░░███  |   |                                                                 ";
-echo "                                                                  |   |  ░███  ░███  ░░█████  ███    ░███    ░███     ░███    ░███  ░███      █ ░███      █ ░███ ░   █ ░███    ░███  |   |                                                                 ";
-echo "                                                                  |   |  █████ █████  ░░█████░░█████████     █████    █████   █████ ███████████ ███████████ ██████████ █████   █████ |   |                                                                 ";
-echo "                                                                  |   | ░░░░░ ░░░░░    ░░░░░  ░░░░░░░░░     ░░░░░    ░░░░░   ░░░░░ ░░░░░░░░░░░ ░░░░░░░░░░░ ░░░░░░░░░░ ░░░░░   ░░░░░  |   |                                                                 ";
-echo "                                                                  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___|                                                                 ";
-echo "                                                                 (_____)                                                                                                            (_____)                                                                ";
+echo "                                                                _____                                                                                                                  _____                                                               ";
+echo "                                                               ( ___ )                                                                                                                ( ___ )                                                              ";
+echo "                                                                |   |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|   |                                                               ";
+echo "                                                                |   |                                                                                                                  |   |                                                               ";
+echo "                                                                |   |                                                                                                                  |   |                                                               ";
+echo "                                                                |   |             ██████   ██████   █████████   ██████   █████   █████████     ███████     ████████  ████              |   |                                                               ";
+echo "                                                                |   |            ░░██████ ██████   ███░░░░░███ ░░██████ ░░███   ███░░░░░███  ███░░░░░███  ███░░░░███░░███              |   |                                                               ";
+echo "                                                                |   |             ░███░█████░███  ░███    ░███  ░███░███ ░███  ███     ░░░  ███     ░░███░░░    ░███ ░███              |   |                                                               ";
+echo "                                                                |   |             ░███░░███ ░███  ░███████████  ░███░░███░███ ░███         ░███      ░███   ███████  ░███              |   | ⠀                                                             ";
+echo "   ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣠⣤⠤⢦⠴⠤⠦⠄⠀⢀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀  |   |             ░███ ░░░  ░███  ░███░░░░░███  ░███ ░░██████ ░███    █████░███      ░███  ███░░░░   ░███              |   | ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣠⣤⠤⢦⠴⠤⠦⠄⠀⢀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   ";
+echo "   ⠀⠀⣀⣤⡤⢤⣄⣀⠀⠀⠀⠀⠀⠀⠀⣀⣀⣤⠶⠖⣲⡴⠞⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠙⠶⣄⡤⠤⠤⠤⣤⣀⠀⠀⠀⠀⠀⠀⠀⣀⣤⣤⣤⣄⣀⠀⠀  |   |             ░███      ░███  ░███    ░███  ░███  ░░█████ ░░███  ░░███ ░░███     ███  ███      █ ░███              |   | ⠀⠀⣀⣤⡤⢤⣄⣀⠀⠀⠀⠀⠀⠀⠀⣀⣀⣤⠶⠖⣲⡴⠞⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠙⠶⣄⡤⠤⠤⠤⣤⣀⠀⠀⠀⠀⠀⠀⠀⣀⣤⣤⣤⣄⣀⠀⠀   ";
+echo "   ⠀⣾⠋⠀⠀⠀⠀⠁⠉⠐⠶⠶⠶⠚⠛⠉⠁⠀⠀⠼⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢝⡦⠀⠀⠀⠉⠙⠛⠓⠶⠶⠞⠛⠉⠀⠀⠀⠀⠙⢷⠀  |   |             █████     █████ █████   █████ █████  ░░█████ ░░█████████  ░░░███████░  ░██████████ █████             |   | ⠸⣾⠋⠀⠀⠀⠀⠁⠉⠐⠶⠶⠶⠚⠛⠉⠁⠀⠀⠼⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢝⡦⠀⠀⠀⠉⠙⠛⠓⠶⠶⠞⠛⠉⠀⠀⠀⠀⠙⢷⠀   ";
+echo "   ⠸⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⡁  |   |            ░░░░░     ░░░░░ ░░░░░   ░░░░░ ░░░░░    ░░░░░   ░░░░░░░░░     ░░░░░░░    ░░░░░░░░░░ ░░░░░              |   | ⠀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⡁   ";
+echo "   ⠀⢿⡀⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣰⠆⠀⠀⠀⢠⣴⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣤⡀⠀⠀⣲⡐⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣼⠀  |   |                                                                                                                  |   | ⠀⢿⡀⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣰⠆⠀⠀⠀⢠⣴⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣤⡀⠀⠀⣲⡐⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣼⠀   ";
+echo "   ⠀⠀⠙⢶⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⡏⠀⠀⠀⠀⣿⣿⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⡇⠀⠀⠉⢷⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⡞⠁⠀  |   |                                                                                                                  |   | ⠀⠀⠙⢶⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⡏⠀⠀⠀⠀⣿⣿⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⡇⠀⠀⠉⢷⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⡞⠁⠀   ";
+echo "   ⠀⠀⠀⠀⠈⠛⠀⠀⠠⠤⣤⣤⢤⠤⠖⢻⡆⠀⠀⠀⠂⠈⠁⠀⠀⠀⠷⣇⣠⣦⣄⣴⠀⠀⠀⠈⠁⠀⠀⠀⠀⢸⡏⠉⠓⠶⠦⣤⢤⠤⠶⠖⠂⠀⠀⠀⠀⠀⠀  |   |                                                                                                                  |   | ⠀⠀⠀⠀⠈⠛⠀⠀⠠⠤⣤⣤⢤⠤⠖⢻⡆⠀⠀⠀⠂⠈⠁⠀⠀⠀⠷⣇⣠⣦⣄⣴⠀⠀⠀⠈⠁⠀⠀⠀⠀⢸⡏⠉⠓⠶⠦⣤⢤⠤⠶⠖⠂⠀⠀⠀⠀⠀⠀   ";
+echo "   ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠻⣤⣀⠀⠀⢀⣠⣀⡀⠀⠀⠈⠁⠀⠈⠁⠀⢀⣠⣀⡀⠀⠀⠀⣠⡟⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀  |   |                               ██████████      ███████    ███████████  █████████                                  |   | ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠻⣤⣀⠀⠀⢀⣠⣀⡀⠀⠀⠈⠁⠀⠈⠁⠀⢀⣠⣀⡀⠀⠀⠀⣠⡟⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   ";
+echo "   ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠛⢻⡟⠉⠉⠙⣷⢦⣤⣤⣤⣤⣤⣾⠋⠉⠉⢻⡆⠸⠛⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀  |   |                              ░░███░░░░███   ███░░░░░███ ░█░░░███░░░█ ███░░░░░███                                 |   | ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠛⢻⡟⠉⠉⠙⣷⢦⣤⣤⣤⣤⣤⣾⠋⠉⠉⢻⡆⠸⠛⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   ";
+echo "   ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣾⠿⠶⠶⠾⣉⢆⠛⣷⣶⡟⠭⣘⠛⡶⠶⡟⢿⣦⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀  |   |                               ░███   ░░███ ███     ░░███░   ░███  ░ ░███    ░░░                                  |   | ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣾⠿⠶⠶⠾⣉⢆⠛⣷⣶⡟⠭⣘⠛⡶⠶⡟⢿⣦⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   ";
+echo "   ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣿⢃⡌⢣⡙⢢⠅⡎⢜⡠⢃⡜⢢⡑⠎⡔⢣⠜⣨⠻⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀  |   |                               ░███    ░███░███      ░███    ░███    ░░█████████                                  |   | ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣿⢃⡌⢣⡙⢢⠅⡎⢜⡠⢃⡜⢢⡑⠎⡔⢣⠜⣨⠻⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   ";
+echo "   ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⣿⢢⠘⡥⢌⠣⢜⡈⠦⡑⢣⡘⡔⡸⢘⠌⠦⡩⢄⢻⡷⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀  |   |                               ░███    ░███░███      ░███    ░███     ░░░░░░░░███                                 |   | ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⣿⢢⠘⡥⢌⠣⢜⡈⠦⡑⢣⡘⡔⡸⢘⠌⠦⡩⢄⢻⡷⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   ";
+echo "   ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢿⣦⠩⡔⢊⡱⢊⠬⡑⢬⢡⠒⡜⡰⣉⢌⡓⡘⢤⣿⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀  |   |                               ░███    ███ ░░███     ███     ░███     ███    ░███                                 |   | ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢿⣦⠩⡔⢊⡱⢊⠬⡑⢬⢡⠒⡜⡰⣉⢌⡓⡘⢤⣿⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   ";
+echo "   ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠻⣷⡈⠧⡰⢉⠦⣉⠖⣨⠑⠦⡑⡔⡊⡔⣩⣾⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀  |   |                               ██████████   ░░░███████░      █████   ░░█████████                                  |   | ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠻⣷⡈⠧⡰⢉⠦⣉⠖⣨⠑⠦⡑⡔⡊⡔⣩⣾⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   ";
+echo "   ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⢿⣶⠁⡏⡰⢆⠾⣀⠹⢆⠱⣆⢱⣸⡿⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀  |   |                              ░░░░░░░░░░      ░░░░░░░       ░░░░░     ░░░░░░░░░                                   |   | ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⢿⣶⠁⡏⡰⢆⠾⣀⠹⢆⠱⣆⢱⣸⡿⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   ";
+echo "   ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⢷⣬⡑⢎⡒⢌⠲⣉⣲⣬⠟⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀  |   |                                                                                                                  |   | ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⢷⣬⡑⢎⡒⢌⠲⣉⣲⣬⠟⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   ";
+echo "   ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠻⢶⣎⣬⡷⠟⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀  |   |                                                                                                                  |   | ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠻⢶⣎⣬⡷⠟⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   ";
+echo "   ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀  |   |                                                                                                                  |   |  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   ";
+echo "                                                                |   |    █████ ██████   █████  █████████  ███████████   █████████   █████       █████       ██████████ ███████████     |   |                                                               ";
+echo "                                                                |   |   ░░███ ░░██████ ░░███  ███░░░░░███░█░░░███░░░█  ███░░░░░███ ░░███       ░░███       ░░███░░░░░█░░███░░░░░███    |   |                                                               ";
+echo "                                                                |   |    ░███  ░███░███ ░███ ░███    ░░░ ░   ░███  ░  ░███    ░███  ░███        ░███        ░███  █ ░  ░███    ░███    |   |                                                               ";
+echo "                                                                |   |    ░███  ░███░░███░███ ░░█████████     ░███     ░███████████  ░███        ░███        ░██████    ░██████████     |   |                                                               ";
+echo "                                                                |   |    ░███  ░███ ░░██████  ░░░░░░░░███    ░███     ░███░░░░░███  ░███        ░███        ░███░░█    ░███░░░░░███    |   |                                                               ";
+echo "                                                                |   |    ░███  ░███  ░░█████  ███    ░███    ░███     ░███    ░███  ░███      █ ░███      █ ░███ ░   █ ░███    ░███    |   |                                                               ";
+echo "                                                                |   |    █████ █████  ░░█████░░█████████     █████    █████   █████ ███████████ ███████████ ██████████ █████   █████   |   |                                                               ";
+echo "                                                                |   |   ░░░░░ ░░░░░    ░░░░░  ░░░░░░░░░     ░░░░░    ░░░░░   ░░░░░ ░░░░░░░░░░░ ░░░░░░░░░░░ ░░░░░░░░░░ ░░░░░   ░░░░░    |   |                                                               ";
+echo "                                                                |   |                                                                                                                  |   |                                                               ";
+echo "                                                                |   |                                                                                                                  |   |                                                               ";
+echo "                                                                |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___|                                                               ";
+echo "                                                               (_____)                                                                                                                (_____)                                                              ";
+echo "                                                                                                                                                                                                                                                           ";
 
 sleep 4
 
@@ -152,36 +157,47 @@ command clear
 ## Functions
 
 # Install dependencies
-install_HEdeps() {
+install_M21deps() {
     local mgr=$(for m in pacman xbps dnf zypper apt; do command -v $m &>/dev/null && { echo ${m%%-*}; break; }; done)
     info "Your package manager is: $mgr"
 
     case $mgr in
-        pacman) sudo pacman --needed -S brightnessctl hyprpanel hyprpaper wl-paste wl-clipboard hyprlock hypridle fish kitty rofi wlogout pipewire batsignal hyprcursor hyprsettings caffeine hyprsession hyprpolkitagent pywal matugen ;;
-        xbps) sudo xbps-install -y brightnessctl hyprpanel hyprpaper wl-paste wl-clipboard hyprlock hypridle fish kitty rofi wlogout pipewire batsignal hyprcursor hyprsettings caffeine hyprsession hyprpolkitagent pywal matugen ;;
-        dnf) sudo dnf install -y brightnessctl hyprpanel hyprpaper wl-paste wl-clipboard hyprlock hypridle fish kitty rofi wlogout pipewire batsignal hyprcursor hyprsettings caffeine hyprsession hyprpolkitagent pywal matugen ;;
-        zypper) sudo zypper install -y brightnessctl hyprpanel hyprpaper wl-paste wl-clipboard hyprlock hypridle fish kitty rofi wlogout pipewire batsignal hyprcursor hyprsettings caffeine hyprsession hyprpolkitagent pywal matugen ;;
-        apt) sudo apt update && sudo apt install -y brightnessctl hyprpanel hyprpaper wl-paste wl-clipboard hyprlock hypridle fish kitty rofi wlogout pipewire batsignal hyprcursor hyprsettings caffeine hyprsession hyprpolkitagent pywal matugen ;;
-        *) error "Sorry hun, your package manager is unsupported.... T-T"; return 1 ;;
+        pacman) yay -S brightnessctl flameshot waybar waypaper swaybg pywal wl-paste wl-clipboard swaylock mako fish kitty rofi wlogout pipewire batsignal polkit-gnome starship ;;
+        xbps) sudo xbps-install -y brightnessctl flameshot waybar waypaper swaybg pywal wl-paste wl-clipboard swaylock mako fish kitty rofi wlogout pipewire batsignal polkit-gnome starship ;;
+        dnf) sudo dnf install -y brightnessctl flameshot waybar waypaper swaybg pywal wl-paste wl-clipboard swaylock mako fish kitty rofi wlogout pipewire batsignal polkit-gnome starship ;;
+        zypper) sudo zypper install -y brightnessctl flameshot waybar waypaper swaybg pywal wl-paste wl-clipboard swaylock mako fish kitty rofi wlogout pipewire batsignal polkit-gnome starship ;;
+        apt) sudo apt update && sudo apt install -y brightnessctl flameshot waybar waypaper swaybg pywal wl-paste wl-clipboard swaylock mako fish kitty rofi wlogout pipewire batsignal polkit-gnome starship ;;
+        *) error "Sorry hun, your package manager is unsupported.... T-T"; echo "" ; echo "Be sure to open depslist.txt and manually install the dependencies~" ;  return 1 ;;
     esac
     info "All the dependencies are now installed! Next step!~"
-    ins_HEdeps=true
+    ins_M21deps=true
     sleep 4
     command clear
     sleep 1
 }
 
-install_HEdots() {
-    command cp -r -v -i $PATH_TO_GIT_CLONE/configs $DOTS_INSTALL_DIR
+install_M21dots() {
+    command cp -r -v -i $PATH_TO_GIT_CLONE/config/btop $DOTS_INSTALL_DIR
+    command cp -r -v -i $PATH_TO_GIT_CLONE/config/cava $DOTS_INSTALL_DIR
+    command cp -r -v -i $PATH_TO_GIT_CLONE/config/fish $DOTS_INSTALL_DIR
+    command cp -r -v -i $PATH_TO_GIT_CLONE/config/kitty $DOTS_INSTALL_DIR
+    command cp -r -v -i $PATH_TO_GIT_CLONE/config/mako $DOTS_INSTALL_DIR
+    command cp -r -v -i $PATH_TO_GIT_CLONE/config/mango $DOTS_INSTALL_DIR
+    command cp -r -v -i $PATH_TO_GIT_CLONE/config/rofi $DOTS_INSTALL_DIR
+    command cp -r -v -i $PATH_TO_GIT_CLONE/config/wal $DOTS_INSTALL_DIR
+    command cp -r -v -i $PATH_TO_GIT_CLONE/config/waybar $DOTS_INSTALL_DIR
+    command cp -r -v -i $PATH_TO_GIT_CLONE/config/waypaper $DOTS_INSTALL_DIR
+    command cp -v -i $PATH_TO_GIT_CLONE/config/background.png $DOTS_INSTALL_DIR
+    command cp -v -i $PATH_TO_GIT_CLONE/config/starship.toml $DOTS_INSTALL_DIR
 
     info "All the configs are fully installed! Yay~"
-    ins_HEdots=true
+    ins_M21dots=true
     sleep 4
     command clear
     sleep 1
 }
 
-run_HEupd() {
+run_M21upd() {
     warn "We advise that you update everything before install!"
     sleep 2
     echo ""
@@ -194,7 +210,7 @@ run_HEupd() {
         zypper) sudo zypper update ;;
         xbps) sudo xbps-install -Su ;;
         apt) sudo apt upgrade ;;
-        *) error "Sorry hun! We have no idea what package manager this is...."; return 1 ;;
+        *) error "Sorry hun! We have no idea what package manager this is...."; echo "" ; echo "Just be sure to update your system!" ; return 1 ;;
     esac
     updcomp=true
     updFin=true
@@ -206,10 +222,10 @@ run_HEupd() {
     fi
 }
 
-ins_HEproc() {
+ins_M21proc() {
     if $updFin = true; then
-       if $ins_HEdeps = true; then
-            if $ins_HEdots = true; then
+       if $ins_M21deps = true; then
+            if $ins_M21dots = true; then
                 if $updcomp = true; then
                     echo "You have some important stuff to reload!"
                     echo ""
@@ -229,17 +245,17 @@ ins_HEproc() {
                 echo exit
                 fi
             else
-            install_HEdots
+            install_M21dots
             main
             echo "Step (3/3) completed!"
             fi
         else
-        install_HEdeps
+        install_M21deps
         main
         echo "Step (2/3) completed!"
         fi
     else
-    run_HEupd
+    run_M21upd
     main
     echo "Step (1/3) completed!"
     fi
@@ -255,12 +271,12 @@ main() {
     clear
     while true; do
         if command -v gum &>/dev/null; then
-            gum style --bold --padding "0 2" --border double --border-foreground 12 "❤ Hypreco Dots Installer ❤"
+            gum style --bold --padding "0 2" --border double --border-foreground 12 "❤ Mango21 Dots Installer ❤"
         else
-            echo -e "\e[36m❤ Hypreco Dots Installer ❤\e[0m"
+            echo -e "\e[36m❤ Mango21 Dots Installer ❤\e[0m"
         fi
     sleep 4
-    ins_HEproc
+    ins_M21proc
     done
 }
 

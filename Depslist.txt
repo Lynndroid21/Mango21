@@ -2,30 +2,25 @@
 yay
 
 ## primary
-hyprland # duhh
+MangoWC # duhh
 brightnessctl
-
-## secondary
 flameshot
-hyprpanel
-hyprpaper
+waybar
+waypaper
+swaybg
+pywal
 wl-paste
 wl-clipboard
-hyprlock
-hypridle
+swaylock
+mako
 fish
 kitty
 rofi
 wlogout
 pipewire
 batsignal
-hyprcursor
-hyprsettings
-caffeine
-hyprsession
-hyprpolkitagent
-pywal
-matugen
+polkit-gnome
+starship
 
 ## addons
 docker desktop
