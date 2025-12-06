@@ -210,7 +210,7 @@ run_M21upd() {
         zypper) sudo zypper update ;;
         xbps) sudo xbps-install -Su ;;
         apt) sudo apt upgrade ;;
-        *) error "Sorry hun! We have no idea what package manager this is...."; echo "" ; echo "Just be sure to update your system!" ; return 1 ;;
+        *) error "Sorry hun! We have no idea what package manager this is...." ; echo "" ; echo "Just be sure to update your system!" ; return 1 ;;
     esac
     updcomp=true
     updFin=true
