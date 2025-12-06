@@ -27,6 +27,8 @@ A Simple Dotfiles pack for MangoWC.
 * waybar
 * waypaper
 * swaybg
+* pywal
+* ChromiumPywal - pywalfox - wal_steam
 * wl-paste
 * wl-clipboard
 * swaylock
@@ -39,7 +41,7 @@ A Simple Dotfiles pack for MangoWC.
 * batsignal
 * xcursor
 * polkit-gnome
-* matugen
+* starship
 
 *External Dependencies:*
 
