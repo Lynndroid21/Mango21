@@ -1,0 +1,268 @@
+/* Define colors */
+@define-color background1 rgba(45, 31, 76, 1);
+@define-color background2 rgba(0, 0, 0, 0);
+@define-color separator #282236;
+@define-color warning #f3ae00;
+@define-color caution #282236;
+@define-color performance #f5c2e7;
+@define-color audio #cba6f7;
+@define-color dubious #542da1;
+@define-color date #e3a81f;
+@define-color work #bba4fe;
+@define-color raincheck rgba(45, 30, 103, 0.4);
+@define-color love #cbb6fe;
+@define-color lovergirl rgba(187, 164, 254, 0.7);
+@define-color heartbreak rgba(187, 164, 254, 0.2);
+@define-color sand #ebcab6;
+@define-color sandtomb rgba(235, 202, 182, 0.7);
+@define-color somber #9380fa;
+@define-color pain rgba(71, 57, 95, 0.4);
+@define-color death rgba(49, 20, 86, 0.4);
+@define-color grief #e3b872;
+@define-color text #ffffff;
+
+* {
+font-family: "Pixelon";
+font-size: 12pt;
+font-weight: 600;
+}
+
+window#waybar {
+background-color: @background2;
+color: @love;
+border-radius: 6pt;
+}
+/* window.left#waybar {
+min-width: 4px;
+}
+window.left#waybar:hover {
+min-width: 64px;
+} */
+
+
+.modules-left,
+.modules-center,
+.modules-right {
+    background: @pain;
+    background-blend-mode: normal;
+    margin: 7px 5px;
+    padding: 4px 2px;
+    border-radius: 20px;
+    border: 2px solid @heartbreak;
+    box-shadow: 0px 0px 3px 4px @heartbreak;
+}
+
+.modules-left {
+    padding: 0;
+}
+
+.modules-center {
+    padding: 0 10px;
+}
+
+#workspaces {
+padding: 2px 7px;
+}
+
+#workspaces button {
+color: @work;
+background: @raincheck;
+border: 2px solid @lovergirl;
+font-family: "Font Awesome 7 Brands";
+border-radius: 20px;
+/* box-shadow: 0px 0px 3px 4px @heartbreak; */
+}
+#workspaces button.active {
+color: @date;
+border: 2px solid @sand;
+font-family: "Font Awesome 7 Classic";
+box-shadow: 0px 0px 3px 4px @sandtomb;
+}
+#workspaces button.hidden {
+color: @love;
+}
+#workspaces button.hidden.active {
+color: @text;
+border: 2px solid @sand;
+}
+
+#workspaces button.urgent {
+background-color: @date;
+}
+
+button:hover {
+    background: inherit;
+    box-shadow: inset 0px -1px 3px 4px #ba9887;
+}
+
+button.active:hover {
+    background: inherit;
+    box-shadow: inset 0 -1px 3px 4px #685da6;
+}
+
+#custom-session-saver {
+font-size: 30px;
+background-image: url('/home/krrj21/Pictures/CustIcons/JWI-Logo.png');
+background-position: center;
+background-repeat: no-repeat;
+background-size: contain;
+color: @work;
+/* background: @death;
+border: 2px solid @lovergirl;
+border-radius: 20px; */
+}
+
+#custom-btop,
+#dwl-window,
+#mpris,
+#cava,
+#custom-sys_upd,
+#tray,
+#cpu,
+#memory,
+#disk,
+#network,
+#bluetooth {
+color: @love;
+border: @love;
+}
+
+#idle_inhibitor,
+#custom-wall_eng {
+color: @grief;
+font-family: "Font Awesome 7 Classic";
+}
+
+#custom-todo,
+#custom-session-saver {
+color: @grief;
+font-family: "Font Awesome 7 Classic";
+}
+
+/* #custom-remind {
+padding: 0 10px;
+margin: 0 0px;
+color: @love;
+background-color: @lovergirl;
+} */
+
+/* #dwl-window {
+padding-block-start: 2px;
+} */
+
+/* #dwl-window,
+#cava,
+#tray,
+#network,
+#bluetooth {
+background-color: @pain;
+} */
+
+#custom-spacer {
+color: @separator;
+}
+
+#custom-spacer1 {
+background: @background2;
+}
+
+#custom-spacer2 {
+background: @background2;
+}
+
+#custom-spacer3 {
+background: @background2;
+}
+
+#custom-spacer4 {
+background: @background2;
+}
+
+#custom-spacer5 {
+background: @background2;
+}
+
+#custom-spacer6 {
+background: @background2;
+}
+
+#custom-spacer7 {
+background: @background2;
+}
+
+.top#custom-spacer1,
+.top#custom-spacer2,
+.top#custom-spacer3,
+.top#custom-spacer4,
+.top#custom-spacer5,
+.top#custom-spacer6,
+.top#custom-spacer7 {
+font-size: 22px;
+padding: 0 0px;
+color: @somber;
+}
+
+#custom-jwilog {
+color: @date;
+}
+
+.left#custom-spacer1,
+.left#custom-spacer2,
+.right#custom-spacer1,
+.right#custom-spacer2 {
+font-size: 17px;
+padding: 0 0px;
+color: @somber;
+}
+
+#pulseaudio-slider {
+padding: 0;
+margin: 0;
+}
+#pulseaudio-slider slider {
+min-height: 0px;
+min-width: 0px;
+opacity: 0.7;
+background: @audio;
+background-image: none;
+border: none;
+box-shadow: 0px 0px 3px 3px rgba(203, 166, 247, 0.4);
+}
+#pulseaudio-slider trough {
+min-height: 80px;
+min-width: 5px;
+border-radius: 5px;
+background: @pain;
+}
+#pulseaudio-slider highlight {
+min-width: 10px;
+border-radius: 5px;
+background: @love;
+}
+
+/* #backlight-slider slider {
+min-height: 0px;
+min-width: 0px;
+opacity: 0.7;
+background: @love;
+background-image: none;
+border: none;
+box-shadow: none;
+background: none;
+}
+#backlight-slider trough {
+min-height: 80px;
+min-width: 5px;
+border-radius: 5px;
+background: @love;
+}
+#backlight-slider highlight {
+min-width: 10px;
+border-radius: 5px;
+background: @pain;
+} */
+
+#custom-vpn {
+font-family: "Font Awesome 7 Brands";
+color: @love;
+}

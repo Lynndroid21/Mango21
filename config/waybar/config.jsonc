@@ -1,0 +1,263 @@
+{
+    "name": "top",
+    "layer": "top",
+    "position": "top",
+    "spacing": 2,
+    "mode": "dock",
+    "width": 2546,
+    "exclusive": true,
+    "fixed-center": true,
+    "reload_style_on_change": true,
+
+    "on-sigusr1": "noop",
+    "on-sigusr2": "noop",
+
+    /* "include": [
+        "~/.config/waybar/config-left.jsonc",
+        "~/.config/waybar/config-right.jsonc"
+    ], */
+
+    "margin-top": 7,
+    "margin-left": 7,
+    "margin-right": 7,
+
+    "modules-left": [
+        "custom/btop",
+        "custom/spacer5",
+        "dwl/window",
+        "custom/spacer1",
+        "mpris",
+        "custom/spacer5",
+        // "cava",
+        "battery",
+        "custom/spacer1"
+    ],
+    "modules-center": [
+        "custom/spacer2",
+        "custom/21log",
+        "custom/spacer2",
+        "ext/workspaces",
+        "custom/spacer7",
+        "clock",
+        "custom/spacer7"
+    ],
+    "modules-right": [
+        "custom/spacer",
+        "custom/sys_upd",
+        "custom/spacer3",
+        "tray",
+        "custom/spacer4",
+        "cpu",
+        "custom/spacer",
+        "memory",
+        "disk",
+        "custom/spacer3",
+        "network",
+        "custom/spacer",
+        "bluetooth",
+        "custom/spacer4",
+        "idle_inhibitor",
+        "custom/spacer3",
+        "custom/wall_eng",
+        "custom/spacer"
+    ],
+
+    "custom/21log": {
+        "format": "󰣇 ",
+        "on-click": "wlogout",
+        "tooltip-format": "Arch, btw ;)"
+    },
+
+    "custom/wall_eng": {
+        "format": " ",
+        "on-click": "waypaper --folder ~/Pictures/Wallpapers"
+    },
+
+    "dwl/window": {
+        "format": "<span color='#ffffff'>   </span>{title}",
+        "max-length": 25,
+    },
+
+    "battery": {
+        "interval": 60,
+        "states": {
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{icon} {capacity}%",
+        "format-icons": ["", "", "", "", ""],
+        "max-length": 25
+    },
+
+    "custom/sys_upd": {
+        "format": "<span color='#ffffff'> </span> Update~",
+        "tooltip": true,
+        "tooltip-format": "Update your system, Babe!~",
+        "on-click": "kitty ~/Hypreco-dots/sys-updater-hypreco.sh",
+    },
+
+    "custom/btop": {
+        "format": "<span color='#ffffff'>   </span> Be topped~",
+        "on-click": "kitty btop",
+    },
+
+    "mpris": {
+        "format": "<span color='#ffffff'>{player_icon}</span> {dynamic}",
+        "format-paused": "{status_icon} <i>{dynamic}</i>",
+        "player-icons": {
+            "default": " ",
+            "mpv": " "
+        },
+        "status-icons": {
+            "paused": ""
+        },
+        // "max-length": 15,
+        "interval": 1
+    },
+
+   /* "cava": {
+        "cava_config": "",
+        "format": " {icons}",
+        "framerate": 30,
+        "autosens": 1,
+        "sensitivity": 20,
+        "bars": 14,
+        "lower_cutoff_freq": 50,
+        "higher_cutoff_freq": 10000,
+        "hide_on_silence": true,
+        // "format_silent": "quiet",
+        "method": "pulse",
+        "source": "auto",
+        "stereo": true,
+        "reverse": false,
+        "bar_delimiter": 0,
+        "monstercat": false,
+        "waves": false,
+        "noise_reduction": 0.77,
+        "input_delay": 2,
+        "format-icons": ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█" ],
+        "actions": {
+                   "on-click-right": "mode"
+                   }
+    },  */
+
+    "ext/workspaces": {
+        "format": "{icon}",
+        "ignore-hidden": true,
+        "on-click": "activate",
+        "sort-by-id": true,
+        "format-icons":{
+            "1": "",  // Terminal
+            "2": " ", // Zen
+            "3": " ", // Coding
+            "4": " ", // Deezer
+            "5": "", // Docker
+            "6": " ", // Localsend
+            "7": "", // Notes
+            "active": ""
+        }
+    },
+
+    "clock": {
+        "interval": 60,
+        "tooltip": true,
+        "format": "<span color='#ffffff'></span>  {:%H:%M}",
+        "tooltip-format": "{:%m-%d-%Y}",
+    },
+
+    "tray": {
+        "icon-size": 21,
+        "spacing": 10,
+    },
+
+    "cpu": {
+        "format": "<span color='#ffffff'></span>  {usage}%",
+        "interval": 2,
+        "states": {
+            "warning": 80,
+            "critical": 95
+      }
+    },
+
+    "memory": {
+        "interval": 2,
+        "format": "| <span color='#ffffff'></span>  {used:0.1f}G/{total:0.1f}G "
+    },
+
+    "disk": {
+        "interval": 30,
+        "format": "| <span color='#ffffff'></span>  {free}/{total}",
+    },
+
+    "network": {
+        "format": "{ifname}",
+        "format-wifi": "<span color='#ffffff'></span>  Home ({signalStrength}%)",
+        "format-ethernet": "<span color='#ffffff'>󰊗</span> {ipaddr}/{cidr}",
+        "format-disconnected": "", //An empty format will hide the module.
+        "tooltip-format": "<span color='#ffffff'>󰊗</span> {ifname} via {gwaddr}",
+        "tooltip-format-wifi": "<span color='#ffffff'></span> {essid} ({signalStrength}%)",
+        "tooltip-format-disconnected": "Disconnected",
+        "max-length": 50,
+        "interval": 20
+    },
+
+    "bluetooth": {
+        "format": "<span color='#ffffff'></span> {status}",
+        "format-connected": "<span color='#ffffff'></span> {device_alias}",
+        "format-connected-battery": "<span color='#ffffff'></span> {device_alias} {device_battery_percentage}%",
+        // "format-device-preference": [ "device1", "device2" ], // preference list deciding the displayed device
+        "tooltip-format": "{controller_alias}\t{controller_address}\n\n{num_connections} connected",
+        "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{num_connections} connected\n\n{device_enumerate}",
+        "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
+        "tooltip-format-enumerate-connected-battery": "{device_alias}\t{device_address}\t{device_battery_percentage}%"
+    },
+
+    "idle_inhibitor": {
+    "format": "{icon}",
+    "format-icons": {
+        "activated": "",
+        "deactivated": ""
+        }
+    },
+
+     "custom/spacer": {
+      "format": " ",
+      "tooltip": false
+    },
+
+    "custom/spacer1": {
+      "format": "  ",
+      "tooltip": false
+    },
+
+    "custom/spacer2": {
+      "format": "  ",
+      "tooltip": false
+    },
+
+    "custom/spacer3": {
+      "format": "  ",
+      "tooltip": false
+    },
+
+    "custom/spacer4": {
+      "format": "  ",
+      "tooltip": false
+    },
+
+    "custom/spacer5": {
+      "format": "  ",
+      "tooltip": false
+    },
+
+    "custom/spacer6": {
+      "format": "  ",
+      "tooltip": false
+    },
+
+    "custom/spacer7": {
+        "format": "  ",
+        "tooltip": false
+    }
+
+}

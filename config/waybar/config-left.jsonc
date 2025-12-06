@@ -1,0 +1,86 @@
+{
+    "name": "left",
+    "layer": "top",
+    "position": "left",
+    "spacing": 2,
+    "mode": "dock",
+    // "modifier": "SUPER+ALT+left",
+    // "modifier-reset": "release",
+    // "ipc": true,
+    // "id": "leftbar",
+    "exclusive": false,
+    "passthrough": false,
+    "start_hidden": true,
+    "reload_style_on_change": true,
+
+    "on-sigusr1": "toggle",
+    "on-sigusr2": "noop",
+
+    "margin-top": 10,
+    "margin-left": 7,
+    "margin-right": 2,
+    "margin-bottom": 10,
+    "width": 64,
+    "height": 1363,
+
+    "modules-left": [
+        "custom/spacer1",
+        // "custom/sun",
+        "wlr/taskbar",
+        "custom/spacer2"
+    ],
+    "modules-center": [
+        "custom/spacer2",
+        "custom/sxng",
+        "custom/spacer1"
+    ],
+    "modules-right": [
+        "custom/spacer1",
+        "custom/sound",
+        "pulseaudio/slider",
+        "custom/spacer",
+        "custom/spacer2"
+    ],
+
+    "custom/sun": {
+        "format": ""
+    },
+
+    "custom/sound": {
+        "format": " "
+    },
+
+    "wlr/taskbar": {
+        "format": "{icon}",
+        "icon-size": 14,
+        "icon-theme": "Font Awesome 7 Brands",
+        "tooltip-format": "{title}",
+        "on-click": "activate",
+        "on-click-middle": "close",
+    },
+
+    "custom/sxng": {
+        "format": "  ",
+    },
+
+    "pulseaudio/slider": {
+        "min": 0,
+        "max": 100,
+        "orientation": "vertical"
+    },
+
+    "custom/spacer": {
+      "format": " ",
+      "tooltip": false
+    },
+
+    "custom/spacer1": {
+        "format": "  ",
+        "tooltip": false
+    },
+
+    "custom/spacer2": {
+        "format": "  ",
+        "tooltip": false
+    }
+}

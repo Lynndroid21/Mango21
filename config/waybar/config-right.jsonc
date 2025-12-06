@@ -1,0 +1,94 @@
+{
+    "name": "right",
+    "layer": "top",
+    "position": "right",
+    "spacing": 2,
+    "mode": "dock",
+    // "modifier": "SUPER+ALT+left",
+    // "modifier-reset": "release",
+    // "ipc": true,
+    // "id": "rightbar",
+    "exclusive": false,
+    "passthrough": false,
+    "start_hidden": true,
+    "reload_style_on_change": true,
+
+    "on-sigusr1": "toggle",
+    "on-sigusr2": "noop",
+
+    "margin-top": 10,
+    "margin-left": 2,
+    "margin-right": 7,
+    "margin-bottom": 10,
+    "width": 64,
+    "height": 1363,
+
+    "modules-left": [
+        "custom/spacer1",
+        "custom/session-saver",
+        "custom/spacer2"
+    ],
+    "modules-center": [
+        "custom/spacer2",
+        // "custom/remind",
+        "custom/todo",
+        "custom/spacer1"
+    ],
+    "modules-right": [
+        "custom/spacer1",
+        "custom/vpn",
+        "custom/spacer",
+        "custom/spacer2"
+    ],
+
+    "custom/session-saver": {
+        "format": "     ",
+        "tooltip": true,
+        "tooltip-format": "btw ;)",
+        "on-click": "~/.config/mango/msession.sh",
+    },
+
+    "custom/todo": {
+        "format": "  ",
+        "exec": "~/.config/waybar/cust-bash-scripts/todo/todo.sh",
+        "on-double-click": "~/.config/waybar/cust-bash-scripts/todo/todo.sh mark_done",
+        "on-click": "kitty ~/.config/waybar/cust-bash-scripts/todo/todo.sh open_tui",
+        "on-click-middle": "~/.config/waybar/cust-bash-scripts/todo/todo.sh middle_click",
+        "return-type": "json",
+        "interval": 5,
+        "tooltip": true
+      },
+
+    /* "custom/remind": {
+        "format": "Rem: {}",
+        "tooltip": true,
+        "interval": 300,
+        "exec": "~/.config/waybar/cust-py-scripts/waybar-remind.py",
+        "return-type": "json"
+    }, */
+
+    "custom/vpn": {
+        "format": "<span color='#ffffff'></span>",
+        "exec": "warp-cli status",
+        "on-click-left": "warp-cli connect",
+        "on-click-right": "warp-cli disconnect",
+        "return-type": "text",
+        "tooltip": true,
+        "tooltip-format": "{text}"
+    },
+
+    "custom/spacer": {
+      "format": " ",
+      "tooltip": false
+    },
+
+    "custom/spacer1": {
+        "format": "  ",
+        "tooltip": false
+    },
+
+    "custom/spacer2": {
+        "format": "  ",
+        "tooltip": false
+    }
+}

@@ -1,0 +1,43 @@
+/* Define colors */
+@define-color background1 rgba(45, 31, 76, 1);
+@define-color background2 rgba(0, 0, 0, 0);
+@define-color dubious #542da1;
+@define-color date #e3a81f;
+@define-color work #bba4fe;
+@define-color raincheck rgba(45, 30, 103, 0.4);
+@define-color love #cbb6fe;
+@define-color lovergirl rgba(187, 164, 254, 0.7);
+@define-color heartbreak rgba(187, 164, 254, 0.2);
+@define-color sand #ebcab6;
+@define-color sandtomb rgba(235, 202, 182, 0.7);
+@define-color somber #9380fa;
+@define-color pain rgba(71, 57, 95, 0.4);
+@define-color death rgba(49, 20, 86, 0.4);
+@define-color grief #e3b872;
+@define-color text #ffffff;
+
+window {
+    background-image: /home/krrj21/Pictures/AppBackgrounds/wallhaven-7ploe9.png;
+    background-color: @death;
+}
+
+button:hover {
+    background-image: none;
+    box-shadow: none;
+    border-color: transparent;
+}
+
+button:hover>image {
+    -gtk-icon-shadow: none;
+    -gtk-icon-effect: none;
+}
+
+.highlighted-button {
+    background-image: none;
+    box-shadow: none;
+    background-color: @lovergirl;
+}
+
+.highlighted-button>image, .highlighted-button:hover>image {
+    -gtk-icon-effect: highlight;
+}

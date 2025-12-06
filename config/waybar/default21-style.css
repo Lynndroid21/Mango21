@@ -1,0 +1,257 @@
+/* Define colors */
+@import url("../../.cache/wal/colors-waybar.css");
+@define-color transparenthood rgba(54, 54, 54, 0);
+@define-color separator #282236;
+@define-color effort1 rgba(54, 54, 54, 0.4);
+@define-color effort2 rgba(54, 54, 54, 0.5);
+@define-color effort3 rgba(188, 188, 188, 0.4);
+@define-color effort4 rgba(204, 204, 204, 0.4);
+@define-color effort5 rgba(204, 204, 204, 0.8);
+
+
+* {
+font-family: "Pixelon";
+font-size: 12pt;
+font-weight: 600;
+}
+
+window#waybar {
+background-color: @transparenthood;
+background-blend-mode: screen;
+color: @foreground;
+border-radius: 6pt;
+}
+/* window.left#waybar {
+min-width: 4px;
+}
+window.left#waybar:hover {
+min-width: 64px;
+} */
+
+
+.modules-left,
+.modules-center,
+.modules-right {
+    background: @effort2;
+    background-blend-mode: overlay;
+    margin: 7px 5px;
+    padding: 4px 2px;
+    border-radius: 20px;
+    border: 2px solid @color5;
+    box-shadow: 0px 0px 3px 4px @effort3;
+}
+
+.modules-left {
+    padding: 0;
+}
+
+.modules-center {
+    padding: 0 10px;
+}
+
+#workspaces {
+padding: 2px 7px;
+}
+
+#workspaces button {
+color: @color5;
+background: @effort2;
+border: 2px solid @color6;
+font-family: "Font Awesome 7 Brands";
+border-radius: 20px;
+}
+#workspaces button.active {
+color: @color4;
+border: 2px solid @color4;
+font-family: "Font Awesome 7 Classic";
+box-shadow: 0px 0px 3px 4px @color4;
+}
+#workspaces button.hidden {
+color: @color5;
+}
+#workspaces button.hidden.active {
+color: @text;
+border: 2px solid @sand;
+}
+
+#workspaces button.urgent {
+background-color: @color9;
+}
+
+button:hover {
+    background: inherit;
+    box-shadow: inset 0px -1px 3px 4px @color4;
+}
+
+button.active:hover {
+    background: inherit;
+    box-shadow: inset 0px -1px 3px 4px @color6;
+}
+
+#custom-session-saver {
+font-size: 30px;
+background-image: url("/home/krrj21/Pictures/CustIcons/JWI-Logo.png");
+background-position: center;
+background-repeat: no-repeat;
+background-size: contain;
+color: @color14;
+/* background: @death;
+border: 2px solid @effort2;
+border-radius: 20px; */
+}
+
+#custom-btop,
+#dwl-window,
+#battery,
+#mpris,
+#cava,
+#custom-sys_upd,
+#tray,
+#cpu,
+#memory,
+#disk,
+#network,
+#bluetooth {
+color: @color5;
+border: @color5;
+}
+
+#idle_inhibitor,
+#custom-wall_eng {
+color: @color11;
+font-family: "Font Awesome 7 Classic";
+}
+
+#custom-todo,
+#custom-session-saver {
+color: @color11;
+font-family: "Font Awesome 7 Classic";
+}
+
+/* #custom-remind {
+padding: 0 10px;
+margin: 0 0px;
+color: @color5;
+background-color: @effort2;
+} */
+
+/* #dwl-window {
+padding-block-start: 2px;
+} */
+
+/* #dwl-window,
+#cava,
+#tray,
+#network,
+#bluetooth {
+background-color: @effort2;
+} */
+
+#custom-spacer {
+color: @separator;
+}
+
+#custom-spacer1 {
+background: @transparenthood;
+}
+
+#custom-spacer2 {
+background: @transparenthood;
+}
+
+#custom-spacer3 {
+background: @transparenthood;
+}
+
+#custom-spacer4 {
+background: @transparenthood;
+}
+
+#custom-spacer5 {
+background: @transparenthood;
+}
+
+#custom-spacer6 {
+background: @transparenthood;
+}
+
+#custom-spacer7 {
+background: @transparenthood;
+}
+
+.top#custom-spacer1,
+.top#custom-spacer2,
+.top#custom-spacer3,
+.top#custom-spacer4,
+.top#custom-spacer5,
+.top#custom-spacer6,
+.top#custom-spacer7 {
+font-size: 22px;
+padding: 0 0px;
+color: @color5;
+}
+
+#custom-21log {
+color: @color14;
+}
+
+.left#custom-spacer1,
+.left#custom-spacer2,
+.right#custom-spacer1,
+.right#custom-spacer2 {
+font-size: 17px;
+padding: 0 0px;
+color: @color5;
+}
+
+#pulseaudio-slider {
+padding: 0;
+margin: 0;
+}
+#pulseaudio-slider slider {
+min-height: 0px;
+min-width: 0px;
+opacity: 0.7;
+background: @color4;
+background-image: none;
+border: none;
+box-shadow: none;
+}
+#pulseaudio-slider trough {
+min-height: 80px;
+min-width: 5px;
+border-radius: 5px;
+background: @effort2;
+}
+#pulseaudio-slider highlight {
+min-width: 10px;
+border-radius: 5px;
+background: @color5;
+}
+
+/* #backlight-slider slider {
+min-height: 0px;
+min-width: 0px;
+opacity: 0.7;
+background: @color5;
+background-image: none;
+border: none;
+box-shadow: none;
+background: none;
+}
+#backlight-slider trough {
+min-height: 80px;
+min-width: 5px;
+border-radius: 5px;
+background: @color5;
+}
+#backlight-slider highlight {
+min-width: 10px;
+border-radius: 5px;
+background: @effort2;
+} */
+
+#custom-vpn {
+font-family: "Font Awesome 7 Brands";
+color: @color5;
+}
