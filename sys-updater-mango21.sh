@@ -3,8 +3,8 @@
 ## Hypreco Updater! Yayyy!
 ## Script works only on Arch/Arch-based distros.
 
-readonly DOTS_REPO="https://github.com/Lynndroid21/Hypreco-dots"
-readonly DOTS_NAME="Hypreco-dots"
+readonly DOTS_REPO="https://github.com/Lynndroid21/Mango21"
+readonly DOTS_NAME="Mango21"
 readonly DOTS_INSTALL_DIR="$HOME/.config"
 readonly PATH_TO_GIT_CLONE="$HOME/$DOTS_NAME"
 
@@ -13,11 +13,10 @@ echo "( ___ )                                                              ( ___
 echo " |   |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|   | ";
 echo " |   |                                                                |   | ";
 echo " |   |                                                                |   | ";
-echo " |   |   ░█░█░█░█░█▀█░█▀▄░█▀▀░█▀▀░█▀█░░░█░█░█▀█░█▀▄░█▀█░▀█▀░█▀▀░█▀▄   |   | ";
-echo " |   |   ░█▀█░░█░░█▀▀░█▀▄░█▀▀░█░░░█░█░░░█░█░█▀▀░█░█░█▀█░░█░░█▀▀░█▀▄   |   | ";
-echo " |   |   ░▀░▀░░▀░░▀░░░▀░▀░▀▀▀░▀▀▀░▀▀▀░░░▀▀▀░▀░░░▀▀░░▀░▀░░▀░░▀▀▀░▀░▀   |   | ";
+echo " |   |   ░█▄█░█▀█░█▀█░█▀▀░█▀█░▀▀▄░▀█░░░░█░█░█▀█░█▀▄░█▀█░▀█▀░█▀▀░█▀▄   |   | ";
+echo " |   |   ░█░█░█▀█░█░█░█░█░█░█░▄▀░░░█░░░░█░█░█▀▀░█░█░█▀█░░█░░█▀▀░█▀▄   |   | ";
+echo " |   |   ░▀░▀░▀░▀░▀░▀░▀▀▀░▀▀▀░▀▀▀░▀▀▀░░░▀▀▀░▀░░░▀▀░░▀░▀░░▀░░▀▀▀░▀░▀   |   | ";
 echo " |   |                                                                |   | ";
-echo " |   |                        By Lynndroid21!~                        |   | ";
 echo " |   |                                                                |   | ";
 echo " |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___| ";
 echo "(_____)                                                              (_____)";
