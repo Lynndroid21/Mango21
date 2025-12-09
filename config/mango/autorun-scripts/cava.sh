@@ -6,4 +6,4 @@ mmsg -d resizewin,1000,200
 
 mmsg -d movewin,91,1225
 
-cava -p /home/krrj21/.config/cava/themes/Mango21_default
+cava -p /home/krrj21/.config/cava/themes/Arch21_default

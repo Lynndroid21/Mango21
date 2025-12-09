@@ -28,7 +28,7 @@ $cmd_duration\
 $line_break\
 $character"""
 
-palette = 'hypreco_default'
+palette = 'arch21_default'
 
 [os]
 disabled = false
@@ -278,7 +278,7 @@ base = "#24273a"
 mantle = "#1e2030"
 crust = "#181926"
 
-[palettes.hypreco_default]
+[palettes.arch21_default]
 deepgold = "#f9a011"
 gold = "#eaa83d"
 sand = "#eabd97"
