@@ -1,6 +1,6 @@
 #!/bin/bash
 
-## Welcome to HyprEco!!!! Hope you enjoy the dots!~
+## Welcome to Mango21!!!! Hope you enjoy the dots!~
 ## Installer built for various package managers listed below!
 
 readonly DOTS_REPO="https://github.com/Lynndroid21/Mango21"
@@ -188,6 +188,7 @@ install_M21dots() {
     command cp -r -v -i $PATH_TO_GIT_CLONE/configs/wal $DOTS_INSTALL_DIR
     command cp -r -v -i $PATH_TO_GIT_CLONE/configs/waybar $DOTS_INSTALL_DIR
     command cp -r -v -i $PATH_TO_GIT_CLONE/configs/waypaper $DOTS_INSTALL_DIR
+    command cp -r -v -i $PATH_TO_GIT_CLONE/configs/wlogout $DOTS_INSTALL_DIR
     command cp -v -i $PATH_TO_GIT_CLONE/configs/background.png $DOTS_INSTALL_DIR
     command cp -v -i $PATH_TO_GIT_CLONE/configs/starship.toml $DOTS_INSTALL_DIR
     command cp -v -i $PATH_TO_GIT_CLONE/configs/Arch21-default.rasi $PATH_TO_ROFI_THEMES

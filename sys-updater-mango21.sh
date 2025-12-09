@@ -25,6 +25,7 @@ DotsUpd() {
         command cp -r -v -i $DOTS_INSTALL_DIR/wal $DOTS_INSTALL_DIR/backup
         command cp -r -v -i $DOTS_INSTALL_DIR/waybar $DOTS_INSTALL_DIR/backup
         command cp -r -v -i $DOTS_INSTALL_DIR/waypaper $DOTS_INSTALL_DIR/backup
+        command cp -r -v -i $DOTS_INSTALL_DIR/wlogout $DOTS_INSTALL_DIR/backup
     fi
     echo ""
     echo "Now we're gonna redownload the dots....~"
@@ -48,6 +49,7 @@ install_M21dots() {
     command cp -r -v -i $PATH_TO_GIT_CLONE/configs/wal $DOTS_INSTALL_DIR
     command cp -r -v -i $PATH_TO_GIT_CLONE/configs/waybar $DOTS_INSTALL_DIR
     command cp -r -v -i $PATH_TO_GIT_CLONE/configs/waypaper $DOTS_INSTALL_DIR
+    command cp -r -v -i $PATH_TO_GIT_CLONE/configs/wlogout $DOTS_INSTALL_DIR
     command cp -v -i $PATH_TO_GIT_CLONE/configs/background.png $DOTS_INSTALL_DIR
     command cp -v -i $PATH_TO_GIT_CLONE/configs/starship.toml $DOTS_INSTALL_DIR
     command cp -v -i $PATH_TO_GIT_CLONE/configs/Arch21-default.rasi $PATH_TO_ROFI_THEMES
