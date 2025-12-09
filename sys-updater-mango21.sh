@@ -1,12 +1,13 @@
 #!/bin/bash
 
-## Hypreco Updater! Yayyy!
+## Mango21 Updater! Yayyy!
 ## Script works only on Arch/Arch-based distros.
 
 readonly DOTS_REPO="https://github.com/Lynndroid21/Mango21"
 readonly DOTS_NAME="Mango21"
 readonly DOTS_INSTALL_DIR="$HOME/.config"
 readonly PATH_TO_GIT_CLONE="$HOME/$DOTS_NAME"
+readonly PATH_TO_ROFI_THEMES="$HOME/.local/share/rofi/themes"
 
 DotsUpd() {
     echo "Next, we'll update the dotfiles!~"
@@ -37,18 +38,19 @@ install_M21dots() {
     echo "Now copying them over....~"
     echo ""
     sleep 2
-    command cp -r -v -i $PATH_TO_GIT_CLONE/config/btop $DOTS_INSTALL_DIR
-    command cp -r -v -i $PATH_TO_GIT_CLONE/config/cava $DOTS_INSTALL_DIR
-    command cp -r -v -i $PATH_TO_GIT_CLONE/config/fish $DOTS_INSTALL_DIR
-    command cp -r -v -i $PATH_TO_GIT_CLONE/config/kitty $DOTS_INSTALL_DIR
-    command cp -r -v -i $PATH_TO_GIT_CLONE/config/mako $DOTS_INSTALL_DIR
-    command cp -r -v -i $PATH_TO_GIT_CLONE/config/mango $DOTS_INSTALL_DIR
-    command cp -r -v -i $PATH_TO_GIT_CLONE/config/rofi $DOTS_INSTALL_DIR
-    command cp -r -v -i $PATH_TO_GIT_CLONE/config/wal $DOTS_INSTALL_DIR
-    command cp -r -v -i $PATH_TO_GIT_CLONE/config/waybar $DOTS_INSTALL_DIR
-    command cp -r -v -i $PATH_TO_GIT_CLONE/config/waypaper $DOTS_INSTALL_DIR
-    command cp -v -i $PATH_TO_GIT_CLONE/config/background.png $DOTS_INSTALL_DIR
-    command cp -v -i $PATH_TO_GIT_CLONE/config/starship.toml $DOTS_INSTALL_DIR
+    command cp -r -v -i $PATH_TO_GIT_CLONE/configs/btop $DOTS_INSTALL_DIR
+    command cp -r -v -i $PATH_TO_GIT_CLONE/configs/cava $DOTS_INSTALL_DIR
+    command cp -r -v -i $PATH_TO_GIT_CLONE/configs/fish $DOTS_INSTALL_DIR
+    command cp -r -v -i $PATH_TO_GIT_CLONE/configs/kitty $DOTS_INSTALL_DIR
+    command cp -r -v -i $PATH_TO_GIT_CLONE/configs/mako $DOTS_INSTALL_DIR
+    command cp -r -v -i $PATH_TO_GIT_CLONE/configs/mango $DOTS_INSTALL_DIR
+    command cp -r -v -i $PATH_TO_GIT_CLONE/configs/rofi $DOTS_INSTALL_DIR
+    command cp -r -v -i $PATH_TO_GIT_CLONE/configs/wal $DOTS_INSTALL_DIR
+    command cp -r -v -i $PATH_TO_GIT_CLONE/configs/waybar $DOTS_INSTALL_DIR
+    command cp -r -v -i $PATH_TO_GIT_CLONE/configs/waypaper $DOTS_INSTALL_DIR
+    command cp -v -i $PATH_TO_GIT_CLONE/configs/background.png $DOTS_INSTALL_DIR
+    command cp -v -i $PATH_TO_GIT_CLONE/configs/starship.toml $DOTS_INSTALL_DIR
+    command cp -v -i $PATH_TO_GIT_CLONE/configs/Arch21-default.rasi $PATH_TO_ROFI_THEMES
 
     info "All the configs are fully Updated! Yay~"
     sleep 4
