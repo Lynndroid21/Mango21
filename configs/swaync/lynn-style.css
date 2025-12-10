@@ -29,8 +29,6 @@
 
 /* Fallback for older CSS themes */
 /* Fallback for older CSS themes */
-@import url("../../.cache/wal/colors-waybar.css");
-
 @define-color cc-bg rgba(46, 46, 46, 0.7);
 @define-color noti-border-color rgba(255, 255, 255, 0.15);
 @define-color noti-bg rgba(48, 48, 48, 0.8);

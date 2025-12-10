@@ -3,14 +3,14 @@
   "ignore-gtk-theme": true,
   "positionX": "right",
   "positionY": "top",
-  "layer": "overlay",
-  "control-center-layer": "overlay",
+  "layer": "top",
+  "control-center-layer": "top",
   "layer-shell": false,
   "layer-shell-cover-screen": true,
   "cssPriority": "user",
-  "control-center-margin-top": 10,
+  "control-center-margin-top": 20,
   "control-center-margin-bottom": 500,
-  "control-center-margin-right": 10,
+  "control-center-margin-right": 20,
   "control-center-margin-left": 0,
   "notification-2fa-action": true,
   "notification-inline-replies": false,
@@ -48,7 +48,8 @@
     "mpris",
     "notifications",
     "dnd",
-    "buttons-grid"
+    "buttons-grid",
+    "volume"
   ],
   "widget-config": {
     "notifications": {
