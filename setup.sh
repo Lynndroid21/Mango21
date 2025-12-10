@@ -10,20 +10,20 @@ readonly PATH_TO_GIT_CLONE="$HOME/$DOTS_NAME"
 readonly PATH_TO_ROFI_THEMES="$HOME/.local/share/rofi/themes"
 
 # bash trap command
-trap M21exit INT
+# trap M21exit INT
 
 # bash clear screen command
-clear;
+# clear;
 
 # bash trap function is executed when CTRL-C is pressed:
-M21exit()
-{
-    command clear
-    echo "No worries hun! Have a good day!~"
-    sleep 4
-    command clear
-    command exit
-}
+# M21exit()
+# {
+#    command clear
+#    echo "No worries hun! Have a good day!~"
+#    sleep 4
+#    command clear
+#    command exit
+# }
 
 # Logging with gum fallback
 info() {
@@ -163,11 +163,11 @@ install_M21deps() {
     info "Your package manager is: $mgr"
 
     case $mgr in
-        pacman) yay -S brightnessctl flameshot waybar waypaper swaybg pywal wl-paste wl-clipboard swaylock mako fish kitty rofi wlogout pipewire batsignal polkit-gnome starship ;;
-        xbps) sudo xbps-install -y brightnessctl flameshot waybar waypaper swaybg pywal wl-paste wl-clipboard swaylock mako fish kitty rofi wlogout pipewire batsignal polkit-gnome starship ;;
-        dnf) sudo dnf install -y brightnessctl flameshot waybar waypaper swaybg pywal wl-paste wl-clipboard swaylock mako fish kitty rofi wlogout pipewire batsignal polkit-gnome starship ;;
-        zypper) sudo zypper install -y brightnessctl flameshot waybar waypaper swaybg pywal wl-paste wl-clipboard swaylock mako fish kitty rofi wlogout pipewire batsignal polkit-gnome starship ;;
-        apt) sudo apt update && sudo apt install -y brightnessctl flameshot waybar waypaper swaybg pywal wl-paste wl-clipboard swaylock mako fish kitty rofi wlogout pipewire batsignal polkit-gnome starship ;;
+        pacman) yay -S brightnessctl flameshot waybar waypaper swaybg pywal wl-paste wl-clipboard swaylock swaync fish kitty rofi wlogout pipewire batsignal polkit-gnome starship ;;
+        xbps) sudo xbps-install -y brightnessctl flameshot waybar waypaper swaybg pywal wl-paste wl-clipboard swaylock swaync fish kitty rofi wlogout pipewire batsignal polkit-gnome starship ;;
+        dnf) sudo dnf install -y brightnessctl flameshot waybar waypaper swaybg pywal wl-paste wl-clipboard swaylock swaync fish kitty rofi wlogout pipewire batsignal polkit-gnome starship ;;
+        zypper) sudo zypper install -y brightnessctl flameshot waybar waypaper swaybg pywal wl-paste wl-clipboard swaylock swaync fish kitty rofi wlogout pipewire batsignal polkit-gnome starship ;;
+        apt) sudo apt update && sudo apt install -y brightnessctl flameshot waybar waypaper swaybg pywal wl-paste wl-clipboard swaylock swaync fish kitty rofi wlogout pipewire batsignal polkit-gnome starship ;;
         *) error "Sorry hun, your package manager is unsupported.... T-T"; echo "" ; echo "Be sure to open depslist.txt and manually install the dependencies~" ;  return 1 ;;
     esac
     info "All the dependencies are now installed! Next step!~"
@@ -182,7 +182,8 @@ install_M21dots() {
     command cp -r -v -i $PATH_TO_GIT_CLONE/configs/cava $DOTS_INSTALL_DIR
     command cp -r -v -i $PATH_TO_GIT_CLONE/configs/fish $DOTS_INSTALL_DIR
     command cp -r -v -i $PATH_TO_GIT_CLONE/configs/kitty $DOTS_INSTALL_DIR
-    command cp -r -v -i $PATH_TO_GIT_CLONE/configs/mako $DOTS_INSTALL_DIR
+    command cp -r -v -i $PATH_TO_GIT_CLONE/configs/swaync $DOTS_INSTALL_DIR
+    command mkdir $DOTS_INSTALL_DIR/mango
     command cp -r -v -i $PATH_TO_GIT_CLONE/configs/mango $DOTS_INSTALL_DIR
     command cp -r -v -i $PATH_TO_GIT_CLONE/configs/rofi $DOTS_INSTALL_DIR
     command cp -r -v -i $PATH_TO_GIT_CLONE/configs/wal $DOTS_INSTALL_DIR
@@ -245,7 +246,7 @@ ins_M21proc() {
                 info "You're all set, hun! Enjoy your new desktop!~"
                 sleep 4
                 command clear
-                echo exit
+                exit
                 fi
             else
             install_M21dots

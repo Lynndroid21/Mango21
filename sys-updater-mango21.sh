@@ -19,7 +19,7 @@ DotsUpd() {
         command cp -r -v -i $DOTS_INSTALL_DIR/cava $DOTS_INSTALL_DIR/backup
         command cp -r -v -i $DOTS_INSTALL_DIR/fish $DOTS_INSTALL_DIR/backup
         command cp -r -v -i $DOTS_INSTALL_DIR/kitty $DOTS_INSTALL_DIR/backup
-        command cp -r -v -i $DOTS_INSTALL_DIR/mako $DOTS_INSTALL_DIR/backup
+        command cp -r -v -i $DOTS_INSTALL_DIR/swaync $DOTS_INSTALL_DIR/backup
         command cp -r -v -i $DOTS_INSTALL_DIR/mango $DOTS_INSTALL_DIR/backup
         command cp -r -v -i $DOTS_INSTALL_DIR/rofi $DOTS_INSTALL_DIR/backup
         command cp -r -v -i $DOTS_INSTALL_DIR/wal $DOTS_INSTALL_DIR/backup
@@ -43,7 +43,7 @@ install_M21dots() {
     command cp -r -v -i $PATH_TO_GIT_CLONE/configs/cava $DOTS_INSTALL_DIR
     command cp -r -v -i $PATH_TO_GIT_CLONE/configs/fish $DOTS_INSTALL_DIR
     command cp -r -v -i $PATH_TO_GIT_CLONE/configs/kitty $DOTS_INSTALL_DIR
-    command cp -r -v -i $PATH_TO_GIT_CLONE/configs/mako $DOTS_INSTALL_DIR
+    command cp -r -v -i $PATH_TO_GIT_CLONE/configs/swaync $DOTS_INSTALL_DIR
     command cp -r -v -i $PATH_TO_GIT_CLONE/configs/mango $DOTS_INSTALL_DIR
     command cp -r -v -i $PATH_TO_GIT_CLONE/configs/rofi $DOTS_INSTALL_DIR
     command cp -r -v -i $PATH_TO_GIT_CLONE/configs/wal $DOTS_INSTALL_DIR
