@@ -32,7 +32,7 @@ A Simple Dotfiles pack for MangoWC.
 * wl-paste
 * wl-clipboard
 * swaylock
-* mako
+* swaync
 * fish
 * kitty
 * rofi
