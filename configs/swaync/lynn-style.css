@@ -85,7 +85,7 @@ notificationwindow, blankwindow, blankwindow {
   /* The actual notification */
   border-radius: var(--border-radius);
   border: var(--border);
-  padding: 0;
+  padding: 0px;
   transition: var(--hover-tranistion);
   background: rgba(var(--noti-bg), var(--noti-bg-alpha));
 }
