@@ -1,9 +1,0 @@
-font=Pixelon 10
-background-color=#7e423164
-text-color=#e6ffd48f
-border-radius=14
-border-color=#66725cb9
-progress-color=over #7fa587ff
-icons=1
-default-timeout=300000
-layer=overlay
