@@ -192,7 +192,7 @@ install_M21dots() {
     command cp -r -v -i $PATH_TO_GIT_CLONE/configs/wlogout $DOTS_INSTALL_DIR
     command cp -v -i $PATH_TO_GIT_CLONE/configs/background.png $DOTS_INSTALL_DIR
     command cp -v -i $PATH_TO_GIT_CLONE/configs/starship.toml $DOTS_INSTALL_DIR
-    command cp -v -i $PATH_TO_GIT_CLONE/configs/Arch21-default.rasi $PATH_TO_ROFI_THEMES
+    command cp -v -i $PATH_TO_GIT_CLONE/configs/rofi/Arch21-default.rasi $PATH_TO_ROFI_THEMES
 
     info "All the configs are fully installed! Yay~"
     ins_M21dots=true
