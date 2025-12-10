@@ -21,4 +21,4 @@ wl-paste --type text --watch cliphist store &
 # Session reload
 #~/.config/mango/msession.sh >/dev/null 2>&1 &
 
-swaync -c ~/.config/swaync/config.json &
+swaync -c ~/.config/swaync/config.json -s ~/.config/swaync/Arch21-style.css &
