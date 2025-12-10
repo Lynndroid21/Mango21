@@ -163,11 +163,11 @@ install_M21deps() {
     info "Your package manager is: $mgr"
 
     case $mgr in
-        pacman) yay -S brightnessctl flameshot waybar waypaper swaybg pywal wl-paste wl-clipboard swaylock swaync fish kitty rofi wlogout pipewire batsignal polkit-gnome starship ;;
-        xbps) sudo xbps-install -y brightnessctl flameshot waybar waypaper swaybg pywal wl-paste wl-clipboard swaylock swaync fish kitty rofi wlogout pipewire batsignal polkit-gnome starship ;;
-        dnf) sudo dnf install -y brightnessctl flameshot waybar waypaper swaybg pywal wl-paste wl-clipboard swaylock swaync fish kitty rofi wlogout pipewire batsignal polkit-gnome starship ;;
-        zypper) sudo zypper install -y brightnessctl flameshot waybar waypaper swaybg pywal wl-paste wl-clipboard swaylock swaync fish kitty rofi wlogout pipewire batsignal polkit-gnome starship ;;
-        apt) sudo apt update && sudo apt install -y brightnessctl flameshot waybar waypaper swaybg pywal wl-paste wl-clipboard swaylock swaync fish kitty rofi wlogout pipewire batsignal polkit-gnome starship ;;
+        pacman) yay -S brightnessctl flameshot waybar waypaper swaybg pywal wl-clipboard swaylock swaync fish kitty rofi wlogout pipewire batsignal polkit-gnome starship ;;
+        xbps) sudo xbps-install -y brightnessctl flameshot waybar waypaper swaybg pywal wl-clipboard swaylock swaync fish kitty rofi wlogout pipewire batsignal polkit-gnome starship ;;
+        dnf) sudo dnf install -y brightnessctl flameshot waybar waypaper swaybg pywal wl-clipboard swaylock swaync fish kitty rofi wlogout pipewire batsignal polkit-gnome starship ;;
+        zypper) sudo zypper install -y brightnessctl flameshot waybar waypaper swaybg pywal wl-clipboard swaylock swaync fish kitty rofi wlogout pipewire batsignal polkit-gnome starship ;;
+        apt) sudo apt update && sudo apt install -y brightnessctl flameshot waybar waypaper swaybg pywal wl-clipboard swaylock swaync fish kitty rofi wlogout pipewire batsignal polkit-gnome starship ;;
         *) error "Sorry hun, your package manager is unsupported.... T-T"; echo "" ; echo "Be sure to open depslist.txt and manually install the dependencies~" ;  return 1 ;;
     esac
     info "All the dependencies are now installed! Next step!~"
