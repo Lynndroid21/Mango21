@@ -52,7 +52,15 @@
             "inhibited-none": "󰪑",
             "dnd-inhibited-notification": "󰂛",
             "dnd-inhibited-none": "󰪑"
-        }
+        },
+        "exec": "swaync-client -swb",
+        "exec-if": "which swaync-client",
+        "on-click": "swaync-client -t -sw",
+        "on-click-right": "swaync-client -d -sw",
+        "return-type": "json",
+        "tooltip": true,
+        "tooltip-format": "{text}",
+        "escape": true
     },
 
     /* "custom/session-saver": {
