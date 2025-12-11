@@ -1,14 +1,14 @@
 #!/bin/bash
 
-kitty "/home/krrj21/.config/mango/autorun-scripts/btop.sh" & disown
+kitty "$HOME/.config/mango/autorun-scripts/btop.sh" & disown
 
 sleep 1
 
-kitty "/home/krrj21/.config/mango/autorun-scripts/cmatrix.sh" & disown
+kitty "$HOME/.config/mango/autorun-scripts/cmatrix.sh" & disown
 
 sleep 1
 
-kitty "/home/krrj21/.config/mango/autorun-scripts/cava.sh" & disown
+kitty "$HOME/.config/mango/autorun-scripts/cava.sh" & disown
 
 sleep 1
 
