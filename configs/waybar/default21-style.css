@@ -215,7 +215,7 @@ opacity: 0.7;
 background: @color4;
 background-image: none;
 border: none;
-box-shadow: 0px 0px 3px 3px @color4;
+box-shadow: 0px 0px 3px 3px rgba(184, 184, 184, 0.7);
 }
 #pulseaudio-slider trough {
 min-height: 80px;
