@@ -52,6 +52,7 @@
             "inhibited-none": "󰪑",
             "dnd-inhibited-notification": "󰂛",
             "dnd-inhibited-none": "󰪑"
+        }
     },
 
     /* "custom/session-saver": {
