@@ -1,3 +1,6 @@
+# Startup greeter (comment below to disable)
+kitty "~/.config/mango/autorun-scripts/greeter_sysc.sh" &
+
 waybar -c ~/.config/waybar/config.jsonc -s ~/.config/waybar/default21-style.css >/dev/null 2>&1 &
 waybar -c ~/.config/waybar/config-left.jsonc -s ~/.config/waybar/default21-style.css >/dev/null 2>&1 &
 waybar -c ~/.config/waybar/config-right.jsonc -s ~/.config/waybar/default21-style.css >/dev/null 2>&1 &
@@ -20,8 +23,5 @@ wl-paste --type text --watch cliphist store &
 
 # Session reload
 #~/.config/mango/msession.sh >/dev/null 2>&1 &
-
-# Startup greeter (comment below to disable)
-~/.config/mango/autorun-scripts/greeter_sysc.sh >/dev/null 2>&1 &
 
 swaync -c ~/.config/swaync/config.json -s ~/.config/swaync/Arch21-style.css &
