@@ -64,7 +64,7 @@
 
     "custom/21log": {
         "format": "󰣇 ",
-        "on-click": "wlogout",
+        "on-click": "wlogout -c ~/.config/wlogout/Arch21-style.css",
         "tooltip-format": "Arch, btw ;)"
     },
 
