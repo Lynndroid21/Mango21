@@ -1,6 +1,8 @@
 # Startup greeter (comment below to disable)
 kitty "~/.config/mango/autorun-scripts/greeter_sysc.sh" &
 
+wait -n
+
 waybar -c ~/.config/waybar/config.jsonc -s ~/.config/waybar/default21-style.css >/dev/null 2>&1 &
 waybar -c ~/.config/waybar/config-left.jsonc -s ~/.config/waybar/default21-style.css >/dev/null 2>&1 &
 waybar -c ~/.config/waybar/config-right.jsonc -s ~/.config/waybar/default21-style.css >/dev/null 2>&1 &
