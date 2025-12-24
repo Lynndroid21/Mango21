@@ -1,0 +1,80 @@
+/* Define colors */
+@define-color background1 rgba(45, 31, 76, 0.4);
+@define-color background2 rgba(0, 0, 0, 0);
+@define-color separator #282236;
+@define-color warning #f3ae00;
+@define-color caution #282236;
+@define-color performance #f5c2e7;
+@define-color audio #cba6f7;
+@define-color dubious #542da1;
+@define-color date #e3a81f;
+@define-color work #bba4fe;
+@define-color raincheck rgba(45, 30, 103, 0.4);
+@define-color love #cbb6fe;
+@define-color lovergirl rgba(187, 164, 254, 0.7);
+@define-color heartbreak rgba(187, 164, 254, 0.2);
+@define-color sand #ebcab6;
+@define-color sandtomb rgba(235, 202, 182, 0.7);
+@define-color somber #9380fa;
+@define-color sorrow rgba(147, 128, 250, 0.5);
+@define-color pain rgba(71, 57, 95, 0.4);
+@define-color death rgba(49, 20, 86, 0.4);
+@define-color grief #e3b872;
+@define-color text #ffffff;
+
+* {
+    font-family: "Pixelon";
+    font-size: 12pt;
+    font-weight: 600;
+}
+
+window {
+    background-color: @background1;
+}
+
+button {
+    border-radius: 14px;
+    border-color: @pain;
+    text-decoration-color: #ffaa00;
+    margin: 21px;
+    color: @love;
+    background-color: @raincheck;
+    border-style: solid;
+    border-width: 2px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25%;
+    box-shadow: 0px 0px 5px 4px @heartbreak;
+}
+
+button:focus,
+button:active,
+button:hover {
+    background-color: @sorrow;
+    outline-style: none;
+    border-color: @sandtomb;
+}
+
+#lock {
+background-image: image(url("/usr/share/wlogout/icons/lock.png"), url("/usr/local/share/wlogout/icons/lock.png"));
+}
+
+#logout {
+background-image: image(url("/usr/share/wlogout/icons/logout.png"), url("/usr/local/share/wlogout/icons/logout.png"));
+}
+
+#suspend {
+background-image: image(url("/usr/share/wlogout/icons/suspend.png"), url("/usr/local/share/wlogout/icons/suspend.png"));
+}
+
+#hibernate {
+background-image: image(url("/usr/share/wlogout/icons/hibernate.png"), url("/usr/local/share/wlogout/icons/hibernate.png"));
+}
+
+#shutdown {
+background-image: image(url("/usr/share/wlogout/icons/shutdown.png"), url("/usr/local/share/wlogout/icons/shutdown.png"));
+}
+
+#reboot {
+background-image: image(url("/usr/share/wlogout/icons/reboot.png"), url("/usr/local/share/wlogout/icons/reboot.png"));
+}
