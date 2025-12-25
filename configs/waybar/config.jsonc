@@ -93,7 +93,7 @@
         "format": "<span color='#ffffff'> </span> Update~",
         "tooltip": true,
         "tooltip-format": "Update your system, Babe!~",
-        "on-click": "kitty ~/Hypreco-dots/sys-updater-hypreco.sh",
+        "on-click": "kitty ~/Mango21/sys-updater-mango21.sh",
     },
 
     "custom/btop": {
