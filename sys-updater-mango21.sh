@@ -61,7 +61,7 @@ install_M21dots() {
 }
 
 DotsConf() {
-    read -p "" -n 1 -r
+    read -p "Do you wish to update the dots, hun? (Y/n): " -n 1 -r
     if [[ $REPLY =~ ^[Yy]$ ]]; then
         DotsUpd
     fi
