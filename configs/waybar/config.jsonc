@@ -90,10 +90,14 @@
     },
 
     "custom/sys_upd": {
-        "format": "<span color='#ffffff'> </span> Update~",
+        "format": "<span color='#e3b872'> </span> Update~",
         "tooltip": true,
-        "tooltip-format": "Update your system, Babe!~",
-        "on-click": "kitty ~/Mango21/sys-updater-mango21.sh",
+        "tooltip-format": "Update your system, Babe!~ {text}",
+        "on-click": "kitty ~/.config/mango/sys-updater-mango21.sh",
+        "return-type": "json",
+        "exec": "~/.config/waybar/cust-bash-scripts/service-checks/arch21_updates.sh",
+        "exec-if": "exit 0",
+        "signal": 8
     },
 
     "custom/btop": {
