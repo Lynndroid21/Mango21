@@ -90,9 +90,9 @@
     },
 
     "custom/sys_upd": {
-        "format": "<span color='#e3b872'> </span> Update~",
+        "format": "{}",
+        "interval": 10800,
         "tooltip": true,
-        "tooltip-format": "Update your system, Babe!~ {text}",
         "on-click": "kitty ~/.config/mango/sys-updater-mango21.sh",
         "return-type": "json",
         "exec": "~/.config/waybar/cust-bash-scripts/service-checks/arch21_updates.sh",
