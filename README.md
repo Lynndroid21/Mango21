@@ -68,6 +68,12 @@ Clone this repo and run ./setup.sh and enjoy!
 
 The sys-updater-mango21.sh script is now built for most distros! However, I'm new to linux and haven't tested any other package managers, so PLEASE leave an issue if the dependency install function is failing! This is an EVOLVING WIP, updates may happen rapidly during the beginning 6 months of this project!
 
+# Credits!
+
+Shotout to a few people for inspo/code included:
+
+* [Niksingh's gdots](https://github.com/niksingh710/gdots)
+
 # Starchart & Other fun things!~
 
 ## Mangobunnies over time
