@@ -192,7 +192,7 @@ install_M21dots() {
     command cp -r -v -i $PATH_TO_GIT_CLONE/configs/wlogout $DOTS_INSTALL_DIR
     command cp -v -i $PATH_TO_GIT_CLONE/configs/background.png $DOTS_INSTALL_DIR
     command cp -v -i $PATH_TO_GIT_CLONE/configs/starship.toml $DOTS_INSTALL_DIR
-    command cp -v -i $PATH_TO_GIT_CLONE/configs/rofi/Arch21-default.rasi $PATH_TO_ROFI_THEMES
+    command cp -v -i $PATH_TO_GIT_CLONE/configs/rofi/Arch21-default.rasi $PATH_TO_ROFI_THEMES || mkdir $PATH_TO_ROFI_THEMES & command cp -v -i $PATH_TO_GIT_CLONE/configs/rofi/Arch21-default.rasi $PATH_TO_ROFI_THEMES
 
     info "All the configs are fully installed! Yay~"
     ins_M21dots=true
@@ -237,12 +237,12 @@ ins_M21proc() {
                         echo ""
                         sleep 1
                         command reboot
-                    else
-                        echo ""
-                        echo "Just be sure to restart later, okay?~" && sleep 4 && echo "3...2..1.~ And Done!"
-                        echo ""
-                        sleep 2
                     fi
+                else
+                echo ""
+                echo "Just be sure to restart later, okay?~" && sleep 4 && echo "3...2..1.~ And Done!"
+                echo ""
+                sleep 2
                 info "You're all set, hun! Enjoy your new desktop!~"
                 sleep 4
                 command clear
